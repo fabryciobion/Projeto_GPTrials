@@ -12,3 +12,4 @@ class Enemy extends Character {
     public void habilidadeEspecial(Character alvo) {
     }
 }
+//
