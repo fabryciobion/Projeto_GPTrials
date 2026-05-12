@@ -97,3 +97,4 @@ class ADMIN extends ClassePlayer {
         alvo.vida = 0;
     }
 }
+//
