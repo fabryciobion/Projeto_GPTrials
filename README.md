@@ -29,4 +29,4 @@ GPTrials/
 
 └── perguntas.csv        # Banco de perguntas
 
-# feito pro fabrycio e vinicius
+# Feito por Vinícius e Fabrycio
