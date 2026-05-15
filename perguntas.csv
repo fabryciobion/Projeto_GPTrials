@@ -1,0 +1,502 @@
+tipo,tema,enunciado,alternativa1,alternativa2,alternativa3,alternativa4,resposta,pontos
+MULTIPLA,Portugues,Qual e o plural correto de "cidadao"?,cidadoes,cidadaos,cidadans,cidadens,2,10
+MULTIPLA,Portugues,Qual das palavras e um substantivo abstrato?,Mesa,Coragem,Pedra,Cachorro,2,10
+MULTIPLA,Portugues,Qual e o antonimo de "efemero"?,Rapido,Passageiro,Duradouro,Fragil,3,15
+MULTIPLA,Portugues,Qual figura de linguagem compara duas coisas usando "como"?,Metafora,Hiperbole,Comparacao,Personificacao,3,10
+MULTIPLA,Portugues,Qual e o sujeito de "Choveu muito ontem"?,O tempo,Choveu,Nao ha sujeito,Ontem,3,10
+MULTIPLA,Portugues,Que tipo de frase e "Que dia lindo!"?,Declarativa,Interrogativa,Exclamativa,Imperativa,3,10
+MULTIPLA,Portugues,Qual e a forma correta de escrever?,fazer,faseer,faser,phaser,1,10
+MULTIPLA,Portugues,O que e um adverbio?,Palavra que modifica verbo adjetivo ou outro adverbio,Palavra que indica acao,Palavra que substitui o nome,Palavra que liga oracoes,1,10
+MULTIPLA,Portugues,Qual e o genero gramatical de "flor"?,Masculino,Feminino,Neutro,Indefinido,2,10
+MULTIPLA,Portugues,Qual e o sinonimo de "alegre"?,Triste,Feliz,Cansado,Irritado,2,10
+MULTIPLA,Portugues,Em "O menino correu rapido" qual e o adverbio?,O,menino,correu,rapido,4,10
+MULTIPLA,Portugues,Qual e a funcao do ponto e virgula?,Terminar uma frase,Separar ordens de grandeza,Separar partes relacionadas de uma frase,Iniciar citacao,3,10
+MULTIPLA,Portugues,O que e uma metafora?,Comparacao direta sem usar "como",Exagero proposital,Atribuir vida a coisa inanimada,Repetir sons,1,10
+MULTIPLA,Portugues,Qual e o tempo verbal de "ele comeu"?,Presente,Preterito perfeito,Futuro,Gerundio,2,10
+MULTIPLA,Portugues,Qual palavra e um pronome pessoal?,Mesa,Ele,Bonito,Correr,2,10
+MULTIPLA,Portugues,Qual e a classe gramatical de "bonito"?,Substantivo,Verbo,Adjetivo,Adverbio,3,10
+MULTIPLA,Portugues,Qual sinal indica que uma letra foi suprimida?,Cedilha,Acento agudo,Apostrofo,Til,3,10
+MULTIPLA,Portugues,Qual e a preposicao em "Fui ao mercado"?,Fui,ao,mercado,Nao ha preposicao,2,10
+MULTIPLA,Portugues,Quem escreveu "O Cortico"?,Jose de Alencar,Aluisio Azevedo,Machado de Assis,Graciliano Ramos,2,15
+MULTIPLA,Portugues,Qual e o antonimo de "humilde"?,Simples,Orgulhoso,Timido,Quieto,2,10
+MULTIPLA,Portugues,Qual das opcoes e uma conjuncao?,Rapido,Porem,Mesa,Correr,2,10
+MULTIPLA,Portugues,O que e um verbo intransitivo?,Verbo que precisa de complemento,Verbo que nao precisa de complemento,Verbo no infinitivo,Verbo no passado,2,10
+MULTIPLA,Portugues,Qual e o diminutivo de "cao"?,Caolete,Canzinho,Caozinho,Cainho,3,10
+MULTIPLA,Portugues,Qual e o superlativo absoluto de "bom"?,Muito bom,Bondade,Otimo,Bom demais,3,10
+MULTIPLA,Portugues,Em qual obra aparece o personagem Bentinho?,Dom Casmurro,Memorias Postumas de Bras Cubas,Iracema,O Guarani,1,15
+MULTIPLA,Portugues,Qual e a funcao do sujeito na oracao?,Indicar lugar,Realizar ou sofrer a acao do verbo,Modificar o verbo,Ligar duas oracoes,2,10
+MULTIPLA,Portugues,Qual e o plural de "mao"?,maos,maes,mauns,maoes,2,10
+MULTIPLA,Portugues,Qual e a acentuacao correta?,cafe,cafeh,cafe com acento agudo,cafee,1,10
+MULTIPLA,Portugues,Qual e o verbo auxiliar mais comum no futuro do presente?,Ter,Ser,Haver,Ir,4,10
+MULTIPLA,Portugues,O que e crase?,Fusao da preposicao "a" com o artigo "a",Tipo de acento,Figura de linguagem,Sinal de pontuacao,1,15
+MULTIPLA,Portugues,Qual e o sinonimo de "velozes"?,Lentos,Rapidos,Pesados,Fortes,2,10
+MULTIPLA,Portugues,Qual palavra e um artigo?,Aquele,Um,Bonito,Correr,2,10
+MULTIPLA,Portugues,O que e um proverbio?,Palavra que substitui o verbo,Frase que expressa sabedoria popular,Tipo de metafora,Forma de pontuacao,2,10
+MULTIPLA,Portugues,Qual figura de linguagem usa exagero?,Comparacao,Eufemismo,Hiperbole,Anafora,3,10
+MULTIPLA,Portugues,Em "Ela chegou tarde" qual e o predicado?,Ela,chegou,chegou tarde,tarde,3,10
+MULTIPLA,Portugues,Qual e o presente do indicativo de "ser" na 1a pessoa?,Sou,Serei,Seja,Fui,1,10
+MULTIPLA,Portugues,Que tipo de texto narra uma historia com personagens e enredo?,Dissertativo,Descritivo,Argumentativo,Narrativo,4,10
+MULTIPLA,Portugues,Qual palavra e um numeral?,Dois,Correr,Mesa,Bonito,1,10
+MULTIPLA,Portugues,O que e um prefixo?,Elemento que se coloca apos a raiz,Elemento que se coloca antes da raiz,Raiz da palavra,Sufixo especial,2,10
+MULTIPLA,Portugues,Qual e o genero literario de Romeu e Julieta?,Poesia,Cronica,Drama,Conto,3,15
+MULTIPLA,Portugues,O que e um periodo composto?,Oracao com dois sujeitos,Oracao com duas ou mais oracoes,Oracao com predicado nominal,Oracao sem verbo,2,10
+MULTIPLA,Portugues,Qual e a funcao do conectivo "mas"?,Adicao,Conclusao,Oposicao,Causa,3,10
+MULTIPLA,Portugues,Qual foi o primeiro livro impresso em portugues?,A Biblia,As Ordenacoes Afonsinas,Cantigas de Santa Maria,Os Lusiadas,2,15
+MULTIPLA,Portugues,Qual e o plural de "chapeu"?,chapeus,chapeues,chapeuns,chapois,1,10
+MULTIPLA,Portugues,O que e um oxímoro?,Metafora extensa,Combinacao de termos opostos,Repeticao de sons,Inversao da ordem natural,2,15
+MULTIPLA,Portugues,Qual e o grau superlativo relativo de "inteligente"?,Inteligentissimo,O mais inteligente,Muito inteligente,Inteligente demais,2,10
+MULTIPLA,Portugues,Qual palavra e um interjeicao?,Oba,Correr,Mesa,Bonito,1,10
+MULTIPLA,Portugues,O que e o predicado verbal?,Predicado com verbo de ligacao,Predicado que contem so verbo significativo,Predicado que tem substantivo,Predicado sem verbo,2,10
+MULTIPLA,Portugues,Qual e o sinonimo de "enigma"?,Resposta,Misterio,Certeza,Clareza,2,10
+MULTIPLA,Portugues,Em qual genero literario se enquadra uma cronica?,Prosa,Poesia,Teatro,Epico,1,10
+MULTIPLA,Portugues,O que e aliteracao?,Repeticao de vogais,Repeticao de consoantes,Inversao de palavras,Omissao de palavras,2,15
+MULTIPLA,Portugues,Qual e o antonimo de "generoso"?,Bondoso,Justo,Mesquinho,Amavel,3,10
+MULTIPLA,Portugues,O que e o voativo?,Elemento que chama o interlocutor,Sujeito oculto,Predicativo do sujeito,Objeto direto,1,10
+MULTIPLA,Portugues,Qual das frases esta na voz passiva?,O cachorro mordeu o homem,O homem foi mordido pelo cachorro,O homem correu,O cachorro latiu,2,10
+MULTIPLA,Portugues,O que e um morfema?,Unidade minima de som,Unidade minima de significado,Tipo de frase,Classe de palavras,2,15
+MULTIPLA,Portugues,Qual e o sinonimo de "lacônico"?,Verboso,Extenso,Breve,Claro,3,10
+MULTIPLA,Portugues,O que e um arcaismo?,Palavra nova,Palavra antiga em desuso,Estrangeirismo,Giria moderna,2,15
+MULTIPLA,Portugues,Qual figura de linguagem atribui qualidades humanas a animais ou coisas?,Comparacao,Metafora,Personificacao,Hiperbole,3,10
+MULTIPLA,Portugues,O que e um neologismo?,Palavra emprestada,Palavra nova criada recentemente,Palavra arcaica,Palavra tecnica,2,10
+MULTIPLA,Portugues,Qual e a funcao do objeto direto?,Complementar verbo transitivo direto sem preposicao,Indicar circunstancia,Modificar substantivo,Ligar oracoes,1,10
+MULTIPLA,Portugues,Qual periodo literario e caracterizado pelo Romantismo no Brasil?,Sec XV,Sec XVII,Sec XIX,Sec XX,3,15
+MULTIPLA,Portugues,Qual e o antonimo de "corajoso"?,Bravo,Covarde,Forte,Audaz,2,10
+MULTIPLA,Portugues,O que e um eufemismo?,Exagero,Expressao mais suave para algo desagradavel,Repeticao de sons,Comparacao,2,10
+MULTIPLA,Portugues,Qual e o sinonimo de "perspicaz"?,Lerdo,Astuto,Ingênuo,Distraido,2,10
+MULTIPLA,Portugues,O que e zeugma?,Elipse de um verbo ja mencionado,Exagero na expressao,Repeticao de palavras,Inversao da oracao,1,15
+MULTIPLA,Portugues,Qual verbo e irregular?,Cantar,Sorrir,Pular,Comer,2,10
+MULTIPLA,Portugues,Qual e o plural de "alemao"?,alemans,alemaos,alemanes,alemoes,2,10
+MULTIPLA,Portugues,O que e a funcao fática da linguagem?,Transmitir informacao,Expressar emocao,Manter o canal de comunicacao,Persuadir o receptor,3,10
+MULTIPLA,Portugues,Qual e o antonimo de "otimista"?,Alegre,Pessimista,Feliz,Animado,2,10
+MULTIPLA,Portugues,Qual das opcoes e um adjetivo?,Correr,Lentamente,Rapido,Carro,3,10
+MULTIPLA,Portugues,O que e o predicativo do sujeito?,Palavra que modifica o sujeito ligada por verbo de ligacao,Complemento do verbo transitivo,Adjunto do sujeito,Objeto do predicado,1,15
+VERDADEIRO_FALSO,Portugues,A crase e obrigatoria antes de verbos.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,O plural de "mao" e "maos".,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,A palavra "saudade" nao tem equivalente em muitas linguas.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,Adverbios podem modificar adjetivos.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,O sujeito sempre vem antes do verbo em portugues.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,Machado de Assis escreveu Dom Casmurro.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Portugues,A virgula pode separar sujeito do predicado diretamente.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,A hiperbole e uma figura de linguagem.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,Todo substantivo tem genero e numero.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,O Modernismo no Brasil comecou em 1922.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Portugues,A aliteracao e a repeticao de sons vocalicos.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,O ponto final indica fim de frase declarativa.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,Um adjetivo pode ser usado como substantivo.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,O verbo "ser" e regular na conjugacao.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,O genero dramatico inclui textos para teatro.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,A voz passiva analítica usa o verbo ser mais participio.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,A palavra "nao" e sempre um adverbio de negacao.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Portugues,Um oxímoro combina termos de sentido oposto.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Portugues,O Barroco no Brasil ocorreu antes do Classicismo.,,,,,Falso,10
+VERDADEIRO_FALSO,Portugues,Todo verbo tem sujeito explicito.,,,,,Falso,10
+COMPLETAR,Portugues,Complete: O autor de Dom Casmurro e Machado de _____.,,,,,Assis,20
+COMPLETAR,Portugues,Complete: A capital do Brasil e _____.,,,,,Brasilia,20
+COMPLETAR,Portugues,Complete: O antonimo de "bom" e _____.,,,,,mau,20
+COMPLETAR,Portugues,Complete: A figura de linguagem que usa exagero se chama _____.,,,,,hiperbole,20
+COMPLETAR,Portugues,Complete: O plural de "chapeu" e _____.,,,,,chapeus,20
+COMPLETAR,Portugues,Complete: Uma frase sem sujeito tem sujeito _____.,,,,,indeterminado,20
+COMPLETAR,Portugues,Complete: O genero literario que inclui poemas e _____.,,,,,lirico,20
+COMPLETAR,Portugues,Complete: Atribuir sentimentos humanos a objetos e _____.,,,,,personificacao,20
+COMPLETAR,Portugues,Complete: O Modernismo brasileiro comecou na Semana de Arte de _____.,,,,,1922,20
+COMPLETAR,Portugues,Complete: A repeticao de consoantes em sequencia e chamada _____.,,,,,aliteracao,20
+MULTIPLA,Matematica,Quantos lados tem um hexagono?,5,6,7,8,2,10
+MULTIPLA,Matematica,Qual e o resultado de 2 elevado a decima potencia?,512,1024,2048,256,2,15
+MULTIPLA,Matematica,Qual e o valor de Pi arredondado ate duas casas decimais?,3.12,3.14,3.16,3.18,2,10
+MULTIPLA,Matematica,Qual e a raiz quadrada de 144?,11,12,13,14,2,10
+MULTIPLA,Matematica,O numero zero e par ou impar?,Impar,Par,Nenhum dos dois,Depende do contexto,2,10
+MULTIPLA,Matematica,Qual e a soma dos angulos internos de um triangulo?,90,180,270,360,2,10
+MULTIPLA,Matematica,Qual e o resultado de 15% de 200?,20,25,30,35,3,10
+MULTIPLA,Matematica,Quantos graus tem um angulo reto?,45,60,90,180,3,10
+MULTIPLA,Matematica,Qual e o MMC de 4 e 6?,12,8,24,6,1,10
+MULTIPLA,Matematica,Qual e a formula da area do circulo?,2 pi r,pi r ao quadrado,2 pi r ao quadrado,pi d,2,15
+MULTIPLA,Matematica,Qual e o resultado de 7 x 8?,54,56,48,63,2,10
+MULTIPLA,Matematica,Se x + 5 = 12 entao x vale?,5,6,7,8,3,10
+MULTIPLA,Matematica,Qual numero e primo?,4,6,9,7,4,10
+MULTIPLA,Matematica,Qual e o dobro de 37?,64,74,72,76,2,10
+MULTIPLA,Matematica,Quantas faces tem um cubo?,4,6,8,12,2,10
+MULTIPLA,Matematica,Qual e o resultado de 100 dividido por 4?,20,25,30,40,2,10
+MULTIPLA,Matematica,Qual figura geometrica tem tres lados?,Quadrado,Pentagono,Triangulo,Hexagono,3,10
+MULTIPLA,Matematica,Qual e a formula do volume do cubo?,lado ao cubo,lado ao quadrado,2 x lado,3 x lado,1,15
+MULTIPLA,Matematica,Qual e o valor absoluto de -15?,15,0,-15,150,1,10
+MULTIPLA,Matematica,Qual e a fracao equivalente a 50%?,1/4,1/2,3/4,2/3,2,10
+MULTIPLA,Matematica,Se um retangulo tem lados 5 e 8 qual e sua area?,13,40,26,45,2,10
+MULTIPLA,Matematica,Qual e o resultado de 3 ao cubo?,6,9,18,27,4,10
+MULTIPLA,Matematica,Quantos zeros tem um bilhao?,6,8,9,12,3,10
+MULTIPLA,Matematica,Qual numero e multiplo de 7?,42,45,46,47,1,10
+MULTIPLA,Matematica,Qual e a regra do sinal de multiplicacao de negativos?,Negativo x Negativo = Negativo,Negativo x Positivo = Positivo,Negativo x Negativo = Positivo,Positivo x Negativo = Positivo,3,10
+MULTIPLA,Matematica,Qual e o numero de Euler arredondado a duas casas?,2.17,2.71,2.81,3.14,2,15
+MULTIPLA,Matematica,Qual e o angulo de cada canto de um quadrado?,60,90,120,180,2,10
+MULTIPLA,Matematica,Quantos milimetros tem um centimetro?,10,100,1000,5,1,10
+MULTIPLA,Matematica,Qual e o MDC de 12 e 18?,3,6,9,12,2,15
+MULTIPLA,Matematica,Qual e o resultado de raiz de 81?,7,8,9,11,3,10
+MULTIPLA,Matematica,Se um triangulo tem angulos 60 60 e X qual e X?,40,60,80,100,2,10
+MULTIPLA,Matematica,Qual e a media aritmetica de 10 20 e 30?,15,20,25,30,2,10
+MULTIPLA,Matematica,Qual e o numero oposto de 7 na reta numerica?,-7,0,7,17,1,10
+MULTIPLA,Matematica,Quantas arestas tem um cubo?,6,8,10,12,4,15
+MULTIPLA,Matematica,Qual e o resultado de 2 mais 2 vezes 2?,6,8,4,10,1,10
+MULTIPLA,Matematica,Qual e a formula da area do retangulo?,base mais altura,base x altura,2 x base mais altura,base ao quadrado,2,10
+MULTIPLA,Matematica,Qual e o menor numero primo?,0,1,2,3,3,10
+MULTIPLA,Matematica,Qual operacao desfaz a potenciacao?,Logaritmo,Radicacao,Fatoracao,Divisao,2,15
+MULTIPLA,Matematica,Quantos cm tem um metro?,10,100,1000,10000,2,10
+MULTIPLA,Matematica,Qual e o resultado de 9 elevado a zero?,0,1,9,81,2,10
+MULTIPLA,Matematica,Qual e a soma dos angulos internos de um quadrilatero?,180,270,360,450,3,10
+MULTIPLA,Matematica,Se 30% de X e 60 entao X vale?,120,180,200,240,3,15
+MULTIPLA,Matematica,Qual e o fatorial de 5?,60,100,120,150,3,10
+MULTIPLA,Matematica,Qual e o perimetro de um quadrado de lado 7?,14,21,28,49,3,10
+MULTIPLA,Matematica,Qual e a tangente de 45 graus?,0,0.5,1,2,3,15
+MULTIPLA,Matematica,Qual e o conjunto dos numeros inteiros representado por?,N,Z,Q,R,2,10
+MULTIPLA,Matematica,Qual e o resultado de 1000 menos 337?,663,673,647,763,1,10
+MULTIPLA,Matematica,Qual e o dobro da metade de 40?,20,40,10,80,2,10
+MULTIPLA,Matematica,Em uma PA com primeiro termo 2 e razao 3 qual e o quarto termo?,9,11,13,14,2,15
+MULTIPLA,Matematica,Qual e o valor de seno de 90 graus?,0,1,raiz de 2 sobre 2,indefinido,2,15
+MULTIPLA,Matematica,Quantos graus tem uma volta completa?,90,180,270,360,4,10
+MULTIPLA,Matematica,Qual e o resultado de 12 ao quadrado?,124,132,144,164,3,10
+MULTIPLA,Matematica,Qual e o numero de faces de um tetraedro?,3,4,5,6,2,15
+MULTIPLA,Matematica,Qual e a razao de uma PA 2 5 8 11?,2,3,4,5,2,10
+MULTIPLA,Matematica,Quantas diagonais tem um pentagono?,4,5,6,7,2,15
+MULTIPLA,Matematica,Qual e o resultado de log na base 10 de 1000?,2,3,4,5,2,15
+MULTIPLA,Matematica,Qual e o produto de 25 x 4?,80,100,125,50,2,10
+MULTIPLA,Matematica,Qual e a hipotenusa de um triangulo retangulo com catetos 3 e 4?,5,6,7,8,1,15
+MULTIPLA,Matematica,Qual e o resultado de 5 fatorial mais 3 fatorial?,126,186,126 mais 6,120 mais 6,4,15
+MULTIPLA,Matematica,Qual e o conjunto dos numeros racionais representado por?,N,Z,Q,R,3,10
+MULTIPLA,Matematica,Qual e o volume de um cubo de lado 3?,9,18,27,81,3,10
+MULTIPLA,Matematica,Se a soma de dois numeros e 20 e um deles e 7 qual e o outro?,11,13,14,15,2,10
+MULTIPLA,Matematica,Qual e o resultado de 144 dividido por 12?,10,11,12,13,3,10
+MULTIPLA,Matematica,Quantos numeros primos ha entre 1 e 10?,3,4,5,6,2,15
+MULTIPLA,Matematica,Qual e a formula da area do triangulo?,base x altura,base x altura dividido por 2,2 x base x altura,base mais altura dividido por 2,2,10
+MULTIPLA,Matematica,Qual e o resultado de 2 elevado a 8?,128,256,512,1024,2,15
+MULTIPLA,Matematica,Qual e o numero neutro da adicao?,0,1,2,-1,1,10
+MULTIPLA,Matematica,Qual e o numero neutro da multiplicacao?,0,1,2,-1,2,10
+VERDADEIRO_FALSO,Matematica,O numero zero e considerado par.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,A soma dos angulos internos de um triangulo e 180 graus.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,Todo numero primo e impar.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,A raiz quadrada de 2 e um numero irracional.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Matematica,O fatorial de 0 e igual a 1.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Matematica,Um triangulo equilatero tem todos os lados iguais.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,O numero pi e exatamente 3.14.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,A hipotenusa e o maior lado do triangulo retangulo.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,Todo quadrado e um retangulo.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,A soma dos angulos internos de um quadrilatero e 360 graus.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,Um numero negativo elevado a potencia par resulta positivo.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,O logaritmo de 1 em qualquer base e igual a zero.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Matematica,O conjunto dos numeros naturais inclui numeros negativos.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,A tangente de 0 graus e igual a 1.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,Em uma progressao geometrica a razao e obtida por adicao.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,O produto de dois numeros primos e sempre primo.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,O perimetro de um circulo e chamado circunferencia.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Matematica,Dois angulos suplementares somam 90 graus.,,,,,Falso,10
+VERDADEIRO_FALSO,Matematica,A area de um triangulo equilatero de lado 2 e raiz de 3.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Matematica,Qualquer numero real elevado a zero e igual a 1.,,,,,Verdadeiro,10
+COMPLETAR,Matematica,Complete: O numero de Euler arredondado e aproximadamente _____.,,,,,2.71,20
+COMPLETAR,Matematica,Complete: O maior angulo de um triangulo retangulo mede _____ graus.,,,,,90,20
+COMPLETAR,Matematica,Complete: O fatorial de 4 e _____.,,,,,24,20
+COMPLETAR,Matematica,Complete: A soma dos angulos internos de um pentagono e _____ graus.,,,,,540,20
+COMPLETAR,Matematica,Complete: O conjunto dos numeros naturais e representado pela letra _____.,,,,,N,20
+COMPLETAR,Matematica,Complete: O produto de qualquer numero por zero e _____.,,,,,zero,20
+COMPLETAR,Matematica,Complete: A raiz quadrada de 225 e _____.,,,,,15,20
+COMPLETAR,Matematica,Complete: Um numero divisivel por 2 e chamado _____.,,,,,par,20
+COMPLETAR,Matematica,Complete: O teorema de Pitagoras diz que a ao quadrado mais b ao quadrado e igual a _____ ao quadrado.,,,,,c,20
+COMPLETAR,Matematica,Complete: O perimetro de um quadrado com lado 5 e _____.,,,,,20,20
+MULTIPLA,Ciencias,Qual e a formula quimica da agua?,H2O,CO2,O2,NaCl,1,10
+MULTIPLA,Ciencias,Qual e o maior planeta do sistema solar?,Saturno,Netuno,Jupiter,Marte,3,10
+MULTIPLA,Ciencias,Quantos ossos tem o corpo humano adulto?,206,186,256,196,1,15
+MULTIPLA,Ciencias,Qual gas as plantas absorvem durante a fotossintese?,Oxigenio,Nitrogenio,Dioxido de Carbono,Hidrogenio,3,10
+MULTIPLA,Ciencias,O DNA humano e o de um chimpanze sao aproximadamente quantos porcento identicos?,90,95,98,99,3,15
+MULTIPLA,Ciencias,Qual e o elemento quimico de simbolo Fe?,Fosforo,Fluor,Ferro,Fermio,3,10
+MULTIPLA,Ciencias,Qual e a unidade basica da vida?,Atomo,Molecula,Celula,Organismo,3,10
+MULTIPLA,Ciencias,Qual planeta e conhecido como o planeta vermelho?,Venus,Marte,Jupiter,Saturno,2,10
+MULTIPLA,Ciencias,Qual e o gas mais abundante na atmosfera terrestre?,Oxigenio,Nitrogenio,Dioxido de Carbono,Argonio,2,15
+MULTIPLA,Ciencias,Quantos cromossomos tem uma celula humana normal?,23,44,46,48,3,15
+MULTIPLA,Ciencias,Qual e o orgao responsavel pela bombeamento de sangue?,Pulmao,Figado,Rim,Coracao,4,10
+MULTIPLA,Ciencias,Qual e o nome do processo pelo qual a agua muda de liquido para gas?,Condensacao,Evaporacao,Solidificacao,Fusao,2,10
+MULTIPLA,Ciencias,Qual e o simbolo quimico do ouro?,Au,Ag,Fe,Cu,1,10
+MULTIPLA,Ciencias,Quantas camadas tem a atmosfera terrestre?,3,4,5,6,3,15
+MULTIPLA,Ciencias,Qual e o nome do processo de divisao celular que gera celulas sexuais?,Mitose,Meiose,Biogenese,Clonagem,2,15
+MULTIPLA,Ciencias,Qual e a velocidade da luz em km por segundo?,300 mil,150 mil,600 mil,30 mil,1,15
+MULTIPLA,Ciencias,Qual e o elemento quimico mais abundante no universo?,Oxigenio,Carbono,Nitrogenio,Hidrogenio,4,15
+MULTIPLA,Ciencias,O que e a teoria celular?,Teoria sobre a origem do universo,Teoria que diz que todos os seres vivos sao formados por celulas,Teoria da divisao do atomo,Teoria da evolucao,2,10
+MULTIPLA,Ciencias,Qual e o nome da camada mais interna da Terra?,Crosta,Manto,Nucleo interno,Nucleo externo,3,15
+MULTIPLA,Ciencias,Qual e o processo pelo qual as plantas produzem alimento?,Respiracao,Digestao,Fotossintese,Fermentacao,3,10
+MULTIPLA,Ciencias,Quantas especies de humanos existem atualmente?,1,2,3,4,1,10
+MULTIPLA,Ciencias,Qual e o nome da lei que diz que dois corpos nao ocupam o mesmo lugar?,Principio da Impenetrabilidade,Segunda lei de Newton,Lei de Avogadro,Principio da Inércia,1,15
+MULTIPLA,Ciencias,Qual orgao filtra o sangue no corpo humano?,Coracao,Figado,Rim,Pulmao,3,10
+MULTIPLA,Ciencias,Qual e o nome do fenomeno de curvatura da luz ao mudar de meio?,Reflexao,Refracao,Difracao,Absorcao,2,15
+MULTIPLA,Ciencias,Qual e o gas produzido pela fotossintese?,CO2,N2,O2,H2,3,10
+MULTIPLA,Ciencias,Qual e a formula quimica do sal de cozinha?,NaCl,KCl,H2SO4,NaOH,1,10
+MULTIPLA,Ciencias,O que e um ecossistema?,Conjunto de animais de uma regiao,Conjunto de seres vivos e o ambiente fisico,Grupo de plantas de uma floresta,Apenas os animais de um bioma,2,10
+MULTIPLA,Ciencias,Qual e o nome do conjunto de genes de um organismo?,Fenoma,Proteoma,Genoma,Cromossoma,3,15
+MULTIPLA,Ciencias,Qual e a unidade de medida da corrente eletrica?,Volt,Ohm,Ampere,Watt,3,10
+MULTIPLA,Ciencias,Qual e o nome do acido presente no estomago?,Acido sulfurico,Acido cloridrico,Acido citrico,Acido lactico,2,15
+MULTIPLA,Ciencias,Quantas vertebras tem a coluna vertebral humana?,26,33,40,46,2,15
+MULTIPLA,Ciencias,Qual e o planeta mais proximo do Sol?,Venus,Terra,Mercurio,Marte,3,10
+MULTIPLA,Ciencias,O que e a selecao natural?,Escolha humana de especies,Sobrevivencia dos mais adaptados ao ambiente,Mutacao genetica forcada,Processo de extincao,2,15
+MULTIPLA,Ciencias,Qual e a estrutura responsavel pelo controle da celula?,Ribossomo,Mitocondria,Nucleo,Membrana,3,10
+MULTIPLA,Ciencias,Qual e o nome do processo de passagem do estado gasoso para liquido?,Evaporacao,Sublimacao,Condensacao,Fusao,3,10
+MULTIPLA,Ciencias,Qual e o nome do fenomeno em que a Lua bloqueia o Sol?,Eclipse lunar,Eclipse solar,Solsticio,Equinocio,2,10
+MULTIPLA,Ciencias,Qual e o nome do orgao responsavel pela producao de insulina?,Pancreas,Figado,Rim,Estomago,1,15
+MULTIPLA,Ciencias,O que e um atomo?,Menor parte divisivel de um elemento quimico,Composto quimico,Molecula complexa,Celula microscopica,1,10
+MULTIPLA,Ciencias,Qual e o numero atomico do Carbono?,4,6,8,12,2,10
+MULTIPLA,Ciencias,Qual e o nome da ciencia que estuda os fosseis?,Geologia,Paleontologia,Arqueologia,Biologia,2,15
+MULTIPLA,Ciencias,Qual e o nome do processo de transformacao de energia quimica em energia celular?,Fotossintese,Respiracao Celular,Fermentacao,Transpiracao,2,15
+MULTIPLA,Ciencias,Qual e o nome da estrela mais proxima do sistema solar?,Betelgeuse,Sirius,Proxima Centauri,Vega,3,15
+MULTIPLA,Ciencias,Quantos litros de sangue tem um adulto em media?,3,5,8,10,2,10
+MULTIPLA,Ciencias,Qual e o nome do campo magnetico da Terra?,Aura borealis,Magnetosfera,Ionosfera,Campo de Faraday,2,15
+MULTIPLA,Ciencias,Qual e o nome do processo de reproducao sem parceiro?,Reproducao sexuada,Reproducao assexuada,Partenogenese,Clonagem artificial,2,10
+MULTIPLA,Ciencias,Qual e o nome do gas responsavel pelo efeito estufa principalmente?,Nitrogenio,Oxigenio,Dioxido de Carbono,Argonio,3,10
+MULTIPLA,Ciencias,Qual e o tecido que recobre o corpo externamente?,Nervoso,Muscular,Epitelial,Conjuntivo,3,10
+MULTIPLA,Ciencias,Qual e o nome do fenomeno de divisao de luz branca em cores?,Reflex,Difusao,Dispersao,Polarizacao,3,15
+MULTIPLA,Ciencias,Qual e o nome da camada de ozonio que protege a Terra?,Biosfera,Hidrosfera,Estratosfera,Litosfera,3,15
+MULTIPLA,Ciencias,O que e um catalisador?,Substancia que retarda reacoes,Substancia que aumenta a velocidade de uma reacao sem ser consumida,Substancia acida,Elemento radioativo,2,15
+MULTIPLA,Ciencias,Qual e a principal funcao dos globulos vermelhos?,Combater infeccoes,Transportar oxigenio,Coagular o sangue,Produzir anticorpos,2,10
+MULTIPLA,Ciencias,Qual e o nome da teoria que explica a origem do universo?,Teoria da Relatividade,Big Bang,Teoria Quantica,Teoria da Evolucao,2,15
+MULTIPLA,Ciencias,Quantas celulas o corpo humano tem aproximadamente?,37 bilhoes,37 trilhoes,37 milhoes,370 bilhoes,2,15
+MULTIPLA,Ciencias,Qual e o nome do processo de conducao de impulsos nervosos?,Sinapsis,Respiracao celular,Neuroplasticidade,Potencial de acao,4,15
+MULTIPLA,Ciencias,Qual e o elemento quimico mais pesado que ocorre naturalmente?,Ferro,Plutonio,Uranio,Radio,3,15
+MULTIPLA,Ciencias,O que e a lei da conservacao da energia?,Energia nao pode ser criada nem destruida,Energia sempre se transforma em luz,Todo corpo em repouso fica em repouso,Energia e sempre perdida,1,15
+MULTIPLA,Ciencias,Qual e o nome da particula subatomica com carga positiva?,Eletron,Neutron,Proton,Quark,3,10
+MULTIPLA,Ciencias,Qual e o nome do processo em que uma substancia passa de solido para gas diretamente?,Evaporacao,Condensacao,Sublimacao,Fusao,3,15
+MULTIPLA,Ciencias,Qual e o nome do fenomeno de divisao de uma celula em duas identicas?,Meiose,Mitose,Reproducao,Clonagem,2,10
+MULTIPLA,Ciencias,Qual e o nome do processo de fabricacao de proteinas a partir do DNA?,Transducao,Transcricao,Traducao,Replicacao,3,15
+MULTIPLA,Ciencias,Qual e a temperatura de ebulicao da agua ao nivel do mar?,90,100,110,120,2,10
+MULTIPLA,Ciencias,Qual e o nome do orgao que produz bile?,Pancreas,Rim,Figado,Vesicula biliar,3,10
+MULTIPLA,Ciencias,O que e entropia?,Medida de ordem em um sistema,Medida de desordem em um sistema,Tipo de energia cinetica,Velocidade de reacao quimica,2,15
+MULTIPLA,Ciencias,Qual e o nome do fenomeno de bioluminescencia em vagalumes?,Fluorescencia,Quimioluminescencia,Fosforescencia,Incandescencia,2,15
+MULTIPLA,Ciencias,Qual e o nome do ramo da biologia que estuda fungos?,Micologia,Botânica,Zoologia,Ecologia,1,15
+MULTIPLA,Ciencias,Qual e a unidade de frequencia de ondas sonoras?,Metro,Pascal,Hertz,Newton,3,10
+MULTIPLA,Ciencias,O que e um anticorpo?,Celula que destroi bacterias,Proteina produzida pelo sistema imune,Tipo de hormonio,Enzima digestiva,2,15
+VERDADEIRO_FALSO,Ciencias,O Sol e uma estrela.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,Os polvos tem tres coracoes.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Ciencias,A Grande Muralha da China e visivel a olho nu do espaco.,,,,,Falso,15
+VERDADEIRO_FALSO,Ciencias,O DNA humano e o de um chimpanze sao aproximadamente 98 porcento identicos.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Ciencias,A Terra e o terceiro planeta do sistema solar.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,Os diamantes sao feitos de carbono puro.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,A velocidade do som e maior que a velocidade da luz.,,,,,Falso,10
+VERDADEIRO_FALSO,Ciencias,O oxigenio e necessario para a combustao.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,Todos os mamiferos sao de sangue quente.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,A agua pura conduz eletricidade.,,,,,Falso,15
+VERDADEIRO_FALSO,Ciencias,Morcegos sao cegos.,,,,,Falso,10
+VERDADEIRO_FALSO,Ciencias,O acido tem pH menor que 7.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,A lua tem atmosfera.,,,,,Falso,10
+VERDADEIRO_FALSO,Ciencias,O coracao humano tem quatro camaras.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,Virus sao seres vivos por definicao classica.,,,,,Falso,15
+VERDADEIRO_FALSO,Ciencias,A fotossintese libera dioxido de carbono.,,,,,Falso,10
+VERDADEIRO_FALSO,Ciencias,O ferro enferruja quando exposto ao oxigenio e agua.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,O DNA e encontrado no nucleo da celula.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Ciencias,Todos os planetas do sistema solar tem luas.,,,,,Falso,10
+VERDADEIRO_FALSO,Ciencias,A pressao atmosferica diminui com a altitude.,,,,,Verdadeiro,10
+COMPLETAR,Ciencias,Complete: O elemento quimico de simbolo Fe e o _____.,,,,,Ferro,20
+COMPLETAR,Ciencias,Complete: A unidade basica da vida e a _____.,,,,,celula,20
+COMPLETAR,Ciencias,Complete: O gas liberado pela fotossintese e o _____.,,,,,oxigenio,20
+COMPLETAR,Ciencias,Complete: A formula quimica do sal de cozinha e _____.,,,,,NaCl,20
+COMPLETAR,Ciencias,Complete: O maior planeta do sistema solar e _____.,,,,,Jupiter,20
+COMPLETAR,Ciencias,Complete: A velocidade da luz e aproximadamente _____ mil km por segundo.,,,,,300,20
+COMPLETAR,Ciencias,Complete: O numero atomico do Carbono e _____.,,,,,6,20
+COMPLETAR,Ciencias,Complete: A particula subatomica com carga negativa e o _____.,,,,,eletron,20
+COMPLETAR,Ciencias,Complete: O processo de divisao celular que gera copias identicas e a _____.,,,,,mitose,20
+COMPLETAR,Ciencias,Complete: A temperatura de ebulicao da agua ao nivel do mar e _____ graus Celsius.,,,,,100,20
+MULTIPLA,Historia,Qual e a capital da Franca?,Berlim,Madri,Paris,Roma,3,15
+MULTIPLA,Historia,Em que ano o Brasil foi descoberto?,1400,1450,1500,1550,3,10
+MULTIPLA,Historia,Qual pais lancou as primeiras bombas atomicas na Segunda Guerra?,Alemanha,Uniao Sovietica,Reino Unido,Estados Unidos,4,10
+MULTIPLA,Historia,Quem foi o primeiro presidente do Brasil?,Dom Pedro I,Marechal Deodoro da Fonseca,Floriano Peixoto,Getulio Vargas,2,15
+MULTIPLA,Historia,Em que ano terminou a Segunda Guerra Mundial?,1943,1944,1945,1946,3,10
+MULTIPLA,Historia,Qual foi a primeira nacao a orbitar um satelite artificial?,Estados Unidos,China,Uniao Sovietica,Alemanha,3,15
+MULTIPLA,Historia,Em que pais ocorreu a Revolucao Francesa?,Alemanha,Inglaterra,Espanha,Franca,4,10
+MULTIPLA,Historia,Em que seculo ocorreu a Revolucao Industrial?,XVI,XVII,XVIII,XIX,3,15
+MULTIPLA,Historia,Qual pais construiu o Canal de Suez?,Franca,Inglaterra,Egito,Turquia,2,15
+MULTIPLA,Historia,Em que ano o homem pisou na Lua pela primeira vez?,1963,1966,1969,1972,3,15
+MULTIPLA,Historia,Quem era o lider da Alemanha nazista?,Stalin,Mussolini,Hitler,Franco,3,10
+MULTIPLA,Historia,Qual cultura construiu as piramides de Giza?,Romana,Grega,Egipcia,Mesopotamica,3,10
+MULTIPLA,Historia,Em que ano foi proclamada a Republica do Brasil?,1888,1889,1891,1900,2,10
+MULTIPLA,Historia,Qual era o nome do navio que afundou em 1912?,Titanic,Lusitania,Olympic,Britannic,1,10
+MULTIPLA,Historia,Qual foi a principal causa da Primeira Guerra Mundial?,Assassinato do Arquiduque Francisco Fernando,Invasao da Polonia,Bomba atomica,Revolucao Russa,1,15
+MULTIPLA,Historia,Qual movimento aboliu a escravidao nos EUA?,Revolucao Americana,Guerra Civil Americana,Guerra de Secessao,Movimento pelos Direitos Civis,2,15
+MULTIPLA,Historia,Em que ano o Muro de Berlim caiu?,1985,1987,1989,1991,3,15
+MULTIPLA,Historia,Qual foi o primeiro pais a dar o voto feminino?,Nova Zelandia,Reino Unido,Estados Unidos,Franca,1,15
+MULTIPLA,Historia,Quem liderou a India na luta pela independencia?,Nehru,Gandhi,Jinnah,Subhas Bose,2,15
+MULTIPLA,Historia,Em que ano foi fundada a ONU?,1944,1945,1946,1947,2,15
+MULTIPLA,Historia,Qual guerra marcou o fim do Imperio Romano do Ocidente?,Primeira Guerra Punica,Guerras Medicas,Queda de Roma em 476 d.C.,Cruzadas,3,15
+MULTIPLA,Historia,Quem foi o primeiro homem a orbitar a Terra?,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Alan Shepard,3,15
+MULTIPLA,Historia,Em que ano ocorreu a Revolucao Russa?,1905,1910,1917,1922,3,15
+MULTIPLA,Historia,Qual foi o nome da lei que aboliu a escravidao no Brasil?,Lei Aurea,Lei do Ventre Livre,Lei dos Sexagenarios,Carta Magna,1,15
+MULTIPLA,Historia,Em que continente foi o Apartheid?,America,Asia,Africa,Europa,3,10
+MULTIPLA,Historia,Quem escreveu A Arte da Guerra?,Confucio,Sun Tzu,Lao Tse,Cao Cao,2,15
+MULTIPLA,Historia,Em que ano comecou a Primeira Guerra Mundial?,1912,1914,1916,1918,2,10
+MULTIPLA,Historia,Qual civilizacao antiga construiu o Coliseu?,Grega,Egipcia,Romana,Persa,3,10
+MULTIPLA,Historia,Em que pais ocorreu a Revolucao Cultural de Mao Tse-tung?,India,China,Japao,Vietnam,2,15
+MULTIPLA,Historia,Qual foi a maior batalha da Segunda Guerra Mundial na Uniao Sovietica?,Batalha de Stalingrado,Batalha de Moscou,Batalha de Leningrado,Batalha de Kursk,1,15
+MULTIPLA,Historia,Qual empresa foi um dos simbolos do colonialismo britanico na India?,Companhia das Indias Orientais,British Petroleum,Banco da Inglaterra,Royal Navy,1,15
+MULTIPLA,Historia,Em que ano Cristovao Colombo chegou a America?,1488,1492,1498,1502,2,10
+MULTIPLA,Historia,Quem foi o imperador da Franca no inicio do seculo XIX?,Luís XIV,Napoleao Bonaparte,Luís XVI,Carlos Magno,2,15
+MULTIPLA,Historia,Qual foi o principal resultado da Conferencia de Yalta?,Criacao da ONU,Divisao da Alemanha,Acordo sobre a Europa pos-guerra,Rendição do Japao,3,15
+MULTIPLA,Historia,Em que pais ocorreu o Genocidio de Ruanda?,Uganda,Rwanda,Congo,Kenya,2,15
+MULTIPLA,Historia,Qual foi o primeiro pais a usar a bomba atomica em guerra?,Alemanha,Uniao Sovietica,Estados Unidos,Japao,3,10
+MULTIPLA,Historia,Em que seculo viveu Leonardo da Vinci?,XIV,XV,XVI,XVII,3,15
+MULTIPLA,Historia,Qual e o nome do tratado que encerrou a Primeira Guerra Mundial?,Tratado de Berlim,Tratado de Paris,Tratado de Versalhes,Tratado de Genebra,3,10
+MULTIPLA,Historia,Em que ano o Brasil se tornou independente de Portugal?,1820,1822,1824,1830,2,10
+MULTIPLA,Historia,Qual e o maior imperio da historia?,Romano,Britanico,Mongolio,Otomano,3,15
+MULTIPLA,Historia,Qual cidade foi destruida pelo Vesuvio em 79 d.C.?,Roma,Napoles,Pompeia,Atenas,3,10
+MULTIPLA,Historia,Quem foi o ultimo farao do Egito?,Cleópatra,Nefertiti,Tutancamon,Ramses II,1,15
+MULTIPLA,Historia,Em que ano foi assinada a Declaracao de Independencia dos EUA?,1774,1776,1778,1780,2,10
+MULTIPLA,Historia,Qual foi o nome do plano americano para reconstruir a Europa pos-guerra?,Plano Marshall,Plano Keynes,Plano New Deal,Plano Truman,1,15
+MULTIPLA,Historia,Qual civilizacao criou o alfabeto fonetico?,Fenícia,Grega,Romana,Egipcia,1,15
+MULTIPLA,Historia,Em que ano Nelson Mandela se tornou presidente da Africa do Sul?,1990,1992,1994,1996,3,15
+MULTIPLA,Historia,Qual foi a primeira cruzada convocada pelo Papa Urbano II?,1096,1147,1189,1202,1,15
+MULTIPLA,Historia,Quem foi o primeiro astronauta americano a ir ao espaco?,Neil Armstrong,John Glenn,Alan Shepard,Buzz Aldrin,3,15
+MULTIPLA,Historia,Em que pais nasceu Karl Marx?,Franca,Russia,Alemanha,Austria,3,15
+MULTIPLA,Historia,Qual foi o nome da operacao aliada no Dia D?,Operacao Overlord,Operacao Barbarossa,Operacao Market Garden,Operacao Torch,1,15
+MULTIPLA,Historia,Em que ano foi fundado o Partido Nazista?,1919,1921,1923,1925,1,15
+MULTIPLA,Historia,Qual foi o nome da primeira constituicao brasileira?,Constituicao Imperial de 1824,Constituicao Republicana de 1891,Carta de 1937,Constituicao de 1946,1,15
+MULTIPLA,Historia,Quem construiu o Canal do Panama?,Reino Unido,Estados Unidos,Franca,Espanha,2,15
+MULTIPLA,Historia,Em que seculo ocorreu a escravidao no Brasil?,XVI ao XIX,XVII ao XIX,XIV ao XVIII,XV ao XVIII,1,15
+MULTIPLA,Historia,Qual foi o periodo historico entre as duas guerras mundiais?,Belle Epoque,Entre Guerras,Renascimento,Iluminismo,2,10
+MULTIPLA,Historia,Em que ano a Alemanha foi reunificada?,1987,1989,1990,1991,3,15
+MULTIPLA,Historia,Qual foi o nome da guerra entre Grecia e Persia?,Guerras Persas,Guerras do Peloponeso,Guerras Macedonias,Guerras Punicas,1,15
+MULTIPLA,Historia,Quem liderou a Revolucao Cubana?,Che Guevara,Fidel Castro,Batista,Raul Castro,2,15
+MULTIPLA,Historia,Em que pais fica a cidade de Hiroshima?,China,Japao,Coreia do Sul,Vietnam,2,10
+MULTIPLA,Historia,Qual foi o nome da politica de separacao racial na Africa do Sul?,Nazismo,Fascismo,Apartheid,Segregacao,3,10
+MULTIPLA,Historia,Em que ano ocorreu o atentado de 11 de setembro?,1999,2000,2001,2002,3,10
+MULTIPLA,Historia,Qual foi o primeiro pais da America do Sul a se independentizar?,Venezuela,Brasil,Colombia,Argentina,1,15
+MULTIPLA,Historia,Em que cidade foi assinada a Magna Carta em 1215?,Londres,Oxford,York,Runnymede,4,15
+MULTIPLA,Historia,Qual foi a maior batalha naval da Primeira Guerra Mundial?,Batalha de Jutlandia,Batalha de Tsushima,Batalha do Atlantico,Batalha de Midway,1,15
+MULTIPLA,Historia,Quem foi o fundador do Imperio Mongolio?,Kublai Khan,Tamerlao,Genghis Khan,Hulagu Khan,3,15
+MULTIPLA,Historia,Qual evento marcou o inicio da Guerra Fria?,Bomba de Hiroshima,Revolucao Chinesa,Discurso da Cortina de Ferro,Crise dos Misseis Cubanos,3,15
+VERDADEIRO_FALSO,Historia,A Revolucao Francesa ocorreu no seculo XVIII.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,O Brasil foi colonia da Espanha.,,,,,Falso,10
+VERDADEIRO_FALSO,Historia,A Segunda Guerra Mundial terminou em 1945.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,Napoleao Bonaparte era frances de nascimento.,,,,,Falso,15
+VERDADEIRO_FALSO,Historia,A America foi descoberta pelos europeus em 1492.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,O Muro de Berlim caiu em 1989.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,O Imperio Romano e o maior da historia.,,,,,Falso,10
+VERDADEIRO_FALSO,Historia,A Lei Aurea aboliu a escravidao no Brasil.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,Gandhi foi assassinado por um conterrâneo.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Historia,O Japao foi o unico pais a receber bombardeio atomico.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,A Revolucao Russa aconteceu em 1917.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,Julius Caesar foi o primeiro imperador romano.,,,,,Falso,15
+VERDADEIRO_FALSO,Historia,A Primeira Guerra Mundial comecou em 1914.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,O Egito fica no continente africano.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,A ONU foi fundada apos a Primeira Guerra Mundial.,,,,,Falso,10
+VERDADEIRO_FALSO,Historia,Nelson Mandela ficou preso por 27 anos.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Historia,O Renascimento comecou na Italia.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,O Brasil foi o ultimo pais das Americas a abolir a escravidao.,,,,,Verdadeiro,15
+VERDADEIRO_FALSO,Historia,A Declaracao de Independencia dos EUA foi assinada em 1776.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Historia,Cleópatra era de origem grega.,,,,,Verdadeiro,15
+COMPLETAR,Historia,Complete: A Segunda Guerra Mundial terminou em _____.,,,,,1945,20
+COMPLETAR,Historia,Complete: O Brasil foi descoberto em _____ por Pedro Alvares Cabral.,,,,,1500,20
+COMPLETAR,Historia,Complete: O tratado que encerrou a Primeira Guerra Mundial foi o Tratado de _____.,,,,,Versalhes,20
+COMPLETAR,Historia,Complete: O primeiro homem a orbitar a Terra foi _____.,,,,,Yuri Gagarin,20
+COMPLETAR,Historia,Complete: A lei que aboliu a escravidao no Brasil chama-se Lei _____.,,,,,Aurea,20
+COMPLETAR,Historia,Complete: O Imperio Mongolio foi fundado por _____.,,,,,Genghis Khan,20
+COMPLETAR,Historia,Complete: O nazismo foi liderado por _____.,,,,,Hitler,20
+COMPLETAR,Historia,Complete: A Revolucao Francesa ocorreu em _____ .,,,,,1789,20
+COMPLETAR,Historia,Complete: O Canal do Panama fica no pais _____.,,,,,Panama,20
+COMPLETAR,Historia,Complete: Pompeia foi destruida pelo vulcao _____.,,,,,Vesuvio,20
+MULTIPLA,Tecnologia,O que significa a sigla CPU?,Central Processing Unit,Computer Power Unit,Core Processing Utility,Central Power Unit,1,10
+MULTIPLA,Tecnologia,Qual linguagem e usada para estilizar paginas web?,Java,HTML,CSS,Python,3,10
+MULTIPLA,Tecnologia,O que e um algoritmo?,Um tipo de virus,Um hardware especifico,Uma sequencia de instrucoes para resolver um problema,Um protocolo de rede,3,10
+MULTIPLA,Tecnologia,O que significa a sigla RAM?,Random Access Memory,Read Access Memory,Remote Access Module,Rapid Action Mode,1,10
+MULTIPLA,Tecnologia,Qual linguagem de programacao usa indentacao como parte da sintaxe?,Java,C++,Python,JavaScript,3,10
+MULTIPLA,Tecnologia,Qual e a funcao de um sistema operacional?,Fazer calculos matematicos,Gerenciar recursos de hardware e software,Navegar na internet,Editar textos,2,10
+MULTIPLA,Tecnologia,O que e um banco de dados relacional?,Sistema de arquivos,Estrutura de dados baseada em tabelas com relacoes,Tipo de rede social,Linguagem de programacao,2,10
+MULTIPLA,Tecnologia,O que significa HTTP?,HyperText Transfer Protocol,High Tech Transfer Protocol,Hybrid Text Transmission Program,HyperText Terminal Protocol,1,10
+MULTIPLA,Tecnologia,Qual estrutura de dados segue o principio LIFO?,Fila,Arvore,Pilha,Grafo,3,10
+MULTIPLA,Tecnologia,O que e compilacao em programacao?,Execucao direta do codigo,Traducao do codigo-fonte para linguagem de maquina,Teste automatico do codigo,Comentario do codigo,2,15
+MULTIPLA,Tecnologia,O que e um IP address?,Nome de um site,Endereco unico de um dispositivo em rede,Tipo de protocolo de email,Tipo de virus,2,10
+MULTIPLA,Tecnologia,Qual linguagem e usada principalmente para estruturar paginas web?,CSS,JavaScript,Python,HTML,4,10
+MULTIPLA,Tecnologia,O que e recursao em programacao?,Loop infinito,Funcao que chama a si mesma,Tipo de bug,Metodo de compilacao,2,15
+MULTIPLA,Tecnologia,Qual e o papel de um firewall?,Acelerar a internet,Editar arquivos,Bloquear acessos nao autorizados em rede,Armazenar dados,3,10
+MULTIPLA,Tecnologia,O que e machine learning?,Programacao manual de regras,Sistema que aprende com dados,Tipo de hardware,Protocolo de rede,2,15
+MULTIPLA,Tecnologia,Qual e a complexidade temporal do algoritmo de busca binaria?,O(n),O(log n),O(n^2),O(1),2,15
+MULTIPLA,Tecnologia,O que e um loop infinito?,Loop que executa exatamente 100 vezes,Loop sem condicao de saída,Loop que usa recursao,Loop paralelo,2,10
+MULTIPLA,Tecnologia,Qual e o nome do protocolo usado para envio de emails?,HTTP,FTP,SMTP,SSH,3,10
+MULTIPLA,Tecnologia,O que e um byte?,8 bits,4 bits,16 bits,1 bit,1,10
+MULTIPLA,Tecnologia,Qual e a linguagem mais usada para desenvolvimento Android?,Swift,Kotlin,C#,PHP,2,15
+MULTIPLA,Tecnologia,O que e uma API?,Aplicativo para iPhone,Interface de programacao de aplicativos,Tipo de banco de dados,Protocolo de seguranca,2,10
+MULTIPLA,Tecnologia,Qual e o nome do sistema de controle de versao mais popular?,Git,SVN,CVS,Mercurial,1,10
+MULTIPLA,Tecnologia,O que e um algoritmo de ordenacao?,Algoritmo que busca elementos,Algoritmo que organiza elementos em ordem,Algoritmo de compressao,Algoritmo de criptografia,2,10
+MULTIPLA,Tecnologia,Qual e o nome do principio de encapsulamento em POO?,Heranca,Polimorfismo,Abstracao,Encapsulamento,4,10
+MULTIPLA,Tecnologia,O que e DNS?,Sistema de Nomes de Domínio,Sistema de Numeracao Digital,Protocolo de rede seguro,Tipo de firewall,1,10
+MULTIPLA,Tecnologia,Qual e a diferenca entre compilado e interpretado?,Compilado e mais lento,Compilado traduz todo codigo antes; interpretado executa linha a linha,Interpretado e sempre mais rapido,Nao ha diferenca,2,15
+MULTIPLA,Tecnologia,O que e polimorfismo em POO?,Herdar atributos de outra classe,Objeto se comportar de formas diferentes conforme o contexto,Ocultar detalhes de implementacao,Criar varias instancias,2,15
+MULTIPLA,Tecnologia,Qual estrutura de dados segue o principio FIFO?,Pilha,Arvore,Fila,Grafo,3,10
+MULTIPLA,Tecnologia,O que e SQL?,Linguagem de script para web,Linguagem de consulta para bancos de dados,Sistema operacional,Protocolo de rede,2,10
+MULTIPLA,Tecnologia,O que e um servidor web?,Computador que hospeda e distribui paginas web,Tipo de virus,Protocolo de email,Sistema operacional,1,10
+MULTIPLA,Tecnologia,Qual e o nome do processo de dividir um programa em funcoes reutilizaveis?,Recursao,Modularizacao,Compilacao,Debug,2,10
+MULTIPLA,Tecnologia,O que e criptografia?,Compressao de dados,Tecnica de ocultar informacoes usando codigos,Tipo de virus,Protocolo de rede,2,15
+MULTIPLA,Tecnologia,Qual linguagem e nativa dos navegadores web?,Java,Python,JavaScript,C++,3,10
+MULTIPLA,Tecnologia,O que e um deadlock em sistemas operacionais?,Travamento mutuo entre processos,Loop infinito,Falta de memoria,Erro de compilacao,1,15
+MULTIPLA,Tecnologia,Qual e a diferenca entre stack e heap?,Stack e para dados globais; heap para locais,Stack e para dados locais e temporarios; heap para alocacao dinamica,Heap e sempre maior que stack,Nao ha diferenca,2,15
+MULTIPLA,Tecnologia,O que e um container Docker?,Maquina virtual completa,Unidade leve de software com suas dependencias,Tipo de banco de dados,Sistema operacional,2,15
+MULTIPLA,Tecnologia,Qual e o nome do protocolo seguro para transferencia de arquivos?,FTP,SFTP,HTTP,SMTP,2,10
+MULTIPLA,Tecnologia,O que e heranca em POO?,Objeto que usa outro objeto,Classe que herda atributos e metodos de outra classe,Tipo de loop,Metodo de compilacao,2,10
+MULTIPLA,Tecnologia,Qual e o nome do padrao de projeto que define uma interface comum para familias de objetos?,Factory Method,Singleton,Observer,Strategy,1,15
+MULTIPLA,Tecnologia,O que e latencia em redes?,Velocidade de upload,Atraso na transmissao de dados,Tamanho do pacote,Largura de banda,2,10
+MULTIPLA,Tecnologia,Qual e a linguagem de programacao criada pela Apple para iOS?,Java,Kotlin,Swift,Objective-C,3,15
+MULTIPLA,Tecnologia,O que e um array?,Tipo de loop,Colecao de elementos do mesmo tipo,Funcao anonima,Protocolo de rede,2,10
+MULTIPLA,Tecnologia,Qual e o nome do processo de encontrar e corrigir bugs?,Refatoracao,Depuracao (debug),Compilacao,Deploy,2,10
+MULTIPLA,Tecnologia,O que e um sistema distribuido?,Sistema em um unico servidor,Sistema composto por varios computadores que trabalham juntos,Tipo de banco de dados,Protocolo de seguranca,2,15
+MULTIPLA,Tecnologia,Qual e a diferenca entre HTTP e HTTPS?,HTTPS usa criptografia e HTTP nao,HTTP e mais rapido,HTTPS e mais antigo,Nao ha diferenca,1,10
+MULTIPLA,Tecnologia,O que e um ponteiro em C/C++?,Tipo de loop,Variavel que armazena endereco de memoria,Tipo de array,Funcao recursiva,2,15
+MULTIPLA,Tecnologia,Qual e o nome da estrutura de dados em arvore usada em bancos de dados?,B-Tree,Hash Table,Linked List,Stack,1,15
+MULTIPLA,Tecnologia,O que e um teste unitario?,Teste do sistema inteiro,Teste de uma unidade individual de codigo,Teste de performance,Teste de seguranca,2,10
+MULTIPLA,Tecnologia,Qual e o nome do protocolo de comunicacao em tempo real na web?,REST,SOAP,WebSocket,GraphQL,3,15
+MULTIPLA,Tecnologia,O que e refatoracao de codigo?,Reescrever o codigo do zero,Melhorar o codigo sem alterar seu comportamento externo,Adicionar novas funcionalidades,Corrigir bugs criticos,2,15
+MULTIPLA,Tecnologia,Qual e o nome da arquitetura que separa frontend de backend via API?,Monolitica,Microservicos,REST,MVC,2,15
+MULTIPLA,Tecnologia,O que e um cache?,Memoria principal do computador,Armazenamento rapido e temporario para dados frequentes,Tipo de banco de dados,Protocolo de rede,2,10
+MULTIPLA,Tecnologia,Qual e a diferenca entre processo e thread?,Processo e menor que thread,Thread e uma unidade de execucao dentro de um processo,Nao ha diferenca,Thread usa mais memoria,2,15
+MULTIPLA,Tecnologia,O que e um webhook?,Tipo de banco de dados,Notificacao HTTP enviada por um servidor quando um evento ocorre,Protocolo de seguranca,Tipo de API,2,15
+MULTIPLA,Tecnologia,Qual e o nome da metodologia agil baseada em sprints?,Kanban,Waterfall,Scrum,Lean,3,10
+MULTIPLA,Tecnologia,O que e um ORM?,Protocolo de rede,Mapeamento Objeto-Relacional que conecta objetos a bancos de dados,Tipo de firewall,Sistema operacional,2,15
+MULTIPLA,Tecnologia,Qual e o nome do paradigma que trata funcoes como objetos de primeira classe?,Orientado a Objetos,Imperativo,Funcional,Procedural,3,15
+MULTIPLA,Tecnologia,O que e Big O Notation?,Notacao para medir tamanho de arquivos,Notacao para descrever complexidade de algoritmos,Tipo de banco de dados,Protocolo de rede,2,15
+MULTIPLA,Tecnologia,Qual e o nome do padrao arquitetural mais comum em aplicacoes web?,REST,MVC,MVVM,MVP,2,10
+MULTIPLA,Tecnologia,O que e um garbage collector?,Sistema de seguranca,Mecanismo que libera memoria nao utilizada automaticamente,Tipo de compilador,Protocolo de rede,2,15
+MULTIPLA,Tecnologia,Qual e a diferenca entre linguagem de alto e baixo nivel?,Alto nivel e mais lento,Alto nivel e mais proximo da linguagem humana; baixo nivel do hardware,Baixo nivel e mais facil,Nao ha diferenca,2,15
+MULTIPLA,Tecnologia,O que e blockchain?,Tipo de banco de dados centralizado,Cadeia de blocos de dados distribuida e imutavel,Protocolo de internet,Linguagem de programacao,2,15
+MULTIPLA,Tecnologia,Qual e o nome do protocolo de roteamento da internet?,TCP/IP,HTTP,FTP,SMTP,1,10
+MULTIPLA,Tecnologia,O que e virtualizacao?,Criar copias fisicas de servidores,Simular hardware para rodar multiplos sistemas em uma maquina,Tipo de criptografia,Protocolo de seguranca,2,15
+MULTIPLA,Tecnologia,Qual e o nome do arquivo de configuracao de dependencias no Node.js?,pom.xml,build.gradle,package.json,requirements.txt,3,10
+VERDADEIRO_FALSO,Tecnologia,O Python e uma linguagem de programacao compilada.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,O HTML e uma linguagem de programacao.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,Um byte e composto por 8 bits.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,O Git e um sistema de controle de versao.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,SQL e usado para consultar bancos de dados relacionais.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,JavaScript so funciona no navegador.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,Um loop infinito sempre causa erro de compilacao.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,TCP e mais confiavel que UDP.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Python usa chaves para definir blocos de codigo.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,O Linux e um sistema operacional de codigo aberto.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Uma API REST usa o protocolo HTTP.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Machine learning sempre requer supervisao humana.,,,,,Falso,15
+VERDADEIRO_FALSO,Tecnologia,Um array comeca no indice 1 na maioria das linguagens.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,O Docker usa containers para isolar aplicacoes.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,O padrao MVC separa logica de negocios da interface.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Blockchain e uma estrutura de dados centralizada.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,Um servidor DNS traduz dominios em enderecos IP.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Recursao sempre e mais eficiente que iteracao.,,,,,Falso,10
+VERDADEIRO_FALSO,Tecnologia,O protocolo HTTPS usa criptografia SSL/TLS.,,,,,Verdadeiro,10
+VERDADEIRO_FALSO,Tecnologia,Em POO heranca permite que uma classe reutilize codigo de outra.,,,,,Verdadeiro,10
+COMPLETAR,Tecnologia,Complete: A linguagem de marcacao usada em paginas web e o _____.,,,,,HTML,20
+COMPLETAR,Tecnologia,Complete: Um byte tem _____ bits.,,,,,8,20
+COMPLETAR,Tecnologia,Complete: O sistema de controle de versao mais popular e o _____.,,,,,Git,20
+COMPLETAR,Tecnologia,Complete: A linguagem nativa do navegador web e o _____.,,,,,JavaScript,20
+COMPLETAR,Tecnologia,Complete: O protocolo seguro de transferencia de hipertexto e o _____.,,,,,HTTPS,20
+COMPLETAR,Tecnologia,Complete: A estrutura de dados LIFO e chamada _____.,,,,,pilha,20
+COMPLETAR,Tecnologia,Complete: O acronimo SQL significa Structured Query _____.,,,,,Language,20
+COMPLETAR,Tecnologia,Complete: O arquivo de configuracao de dependencias no Node.js e o _____.,,,,,package.json,20
+COMPLETAR,Tecnologia,Complete: A metodologia agil baseada em sprints se chama _____.,,,,,Scrum,20
+COMPLETAR,Tecnologia,Complete: O processo de encontrar e corrigir bugs e chamado _____.,,,,,debug,20
+MULTIPLA,Ciencias,Qual e o nome do processo de obtencao de energia sem oxigenio?,Respiracao aerobia,Fotossintese,Fermentacao,Transpiracao,3,10
+MULTIPLA,Ciencias,Qual e o nome da escala de temperatura usada em ciencia?,Fahrenheit,Celsius,Kelvin,Rankine,3,15
+MULTIPLA,Ciencias,Qual e o nome do ramo da fisica que estuda o calor?,Termodinamica,Optica,Mecanica,Eletromagnetismo,1,10
+MULTIPLA,Historia,Qual foi o nome da guerra entre Grecia e Troia?,Guerra do Peloponeso,Guerra Medica,Guerra de Troia,Guerra Punica,3,10
+MULTIPLA,Historia,Em que pais foi criado o alfabeto grego?,Grecia,Roma,Persia,Egito,1,10
+MULTIPLA,Historia,Qual foi a primeira cidade do mundo a ter um milhao de habitantes?,Roma,Babilonia,Alexandria,Atenas,1,15
+MULTIPLA,Historia,Em que ano foi fundada a cidade de Roma segundo a tradicao?,753 a.C.,500 a.C.,300 a.C.,100 a.C.,1,15
+MULTIPLA,Matematica,Qual e o resultado de 13 ao quadrado?,159,169,179,189,2,10
+MULTIPLA,Matematica,Qual e a soma de todos os angulos internos de um hexagono?,540,600,720,900,3,15
+MULTIPLA,Tecnologia,O que e um servidor proxy?,Banco de dados remoto,Intermediario entre cliente e servidor,Tipo de firewall fisico,Protocolo de email,2,10
+MULTIPLA,Tecnologia,Qual e o nome do comando git para enviar commits ao repositorio remoto?,git pull,git commit,git push,git merge,3,10
+MULTIPLA,Tecnologia,O que e um IDE?,Linguagem de programacao,Ambiente integrado de desenvolvimento,Tipo de banco de dados,Protocolo de rede,2,10
+MULTIPLA,Tecnologia,Qual e o nome da instrucao que repete um bloco enquanto uma condicao for verdadeira?,for,while,if,switch,2,10
+MULTIPLA,Tecnologia,O que e float em programacao?,Tipo de loop,Tipo de dado para numeros decimais,Tipo de estrutura de dados,Tipo de funcao,2,10
