@@ -34,7 +34,7 @@ abstract class ClassePlayer extends Character {
 //opcoes pro jogador
 class Noob extends ClassePlayer {
     public Noob(String nome) {
-        super(nome, 80, 15);
+        super(nome, 50, 10);
     }
 
     @Override
@@ -46,7 +46,7 @@ class Noob extends ClassePlayer {
 
 class Pro extends ClassePlayer {
     public Pro(String nome) {
-        super(nome, 120, 35);
+        super(nome, 40, 40);
     }
 
     @Override
@@ -58,7 +58,7 @@ class Pro extends ClassePlayer {
 
 class Hacker extends ClassePlayer {
     public Hacker(String nome) {
-        super(nome, 100, 50);
+        super(nome, 30, 45);
     }
 
     @Override
@@ -72,7 +72,7 @@ class Hacker extends ClassePlayer {
 
 class God extends ClassePlayer {
     public God(String nome) {
-        super(nome, 200, 80);
+        super(nome, 20, 50);
     }
 
     @Override
@@ -84,7 +84,7 @@ class God extends ClassePlayer {
 
 class ADMIN extends ClassePlayer {
     public ADMIN(String nome) {
-        super(nome, 1000000, 99999);
+        super(nome, 10, 55);
     }
 
     @Override

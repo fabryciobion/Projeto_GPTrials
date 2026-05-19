@@ -5,17 +5,17 @@ class Enemy extends Character {
     }
 
     public static Enemy criarAndroid() {
-        return new Enemy("Android", 80, 15);
+        return new Enemy("Android", 20, 5);
     }
     public static Enemy criarSuperAndroid() {
-        return new Enemy("Super Android", 200, 35);
+        return new Enemy("Super Android", 50, 15);
     }
     public static Enemy criarGPTBoss() {
-        return new Enemy("ChatGPT-Boss", 999, 100);
+        return new Enemy("ChatGPT-Boss", 100, 25);
     }
 
     @Override
     public void habilidadeEspecial(Character alvo) {
     }
 }
-//
+//teste de balanceamento
