@@ -87,9 +87,9 @@ public class Game {
     private List<Enemy> criarInimigosArena() {
         List<Enemy> lista = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
-            lista.add(Enemy.criarBotBasico());
+            lista.add(Enemy.criarAndroid());
         }
-        lista.add(Enemy.criarAndroideAvancado());
+        lista.add(Enemy.criarSuperAndroid());
         return lista;
     }
 
@@ -109,7 +109,7 @@ public class Game {
         System.out.println("  4. GOD     -- 200 HP  | 80 dano  | Habilidade: Poder Divino  (33x dano)");
         System.out.println("  ???. ???   -- ??  HP  | ?? dano  | Habilidade: ???");
         System.out.println();
-        System.out.println("  Habilidades custam " + ClassePlayer.CUSTO_HABILIDADE
+        System.out.println("  Habilidades custam " + ClassePlayer.CustoHabilidade
                 + " de energia. Acertar perguntas concede +1 energia.");
         System.out.print("Escolha: ");
 

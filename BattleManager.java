@@ -72,13 +72,13 @@ public class BattleManager {
         System.out.println("\nO que voce quer fazer?");
         System.out.println("  1. Atacar             (dano base: " + player.getDano() + ")");
 
-        boolean temEnergia = player.getEnergia() >= ClassePlayer.CUSTO_HABILIDADE;
+        boolean temEnergia = player.getEnergia() >= ClassePlayer.CustoHabilidade;
         if (temEnergia) {
             System.out.println("  2. Habilidade Especial  (custo: "
-                    + ClassePlayer.CUSTO_HABILIDADE + " energia)");
+                    + ClassePlayer.CustoHabilidade + " energia)");
         } else {
             System.out.println("  2. Habilidade Especial  [BLOQUEADA - precisa de "
-                    + ClassePlayer.CUSTO_HABILIDADE + " energia, voce tem "
+                    + ClassePlayer.CustoHabilidade + " energia, voce tem "
                     + player.getEnergia() + "]");
         }
         System.out.println("  3. Descansar/Desviar   (recupera " + CURA_DESCANSO
@@ -143,7 +143,7 @@ public class BattleManager {
             inimigo.vida -= danoTotal;
             if (inimigo.vida < 0) inimigo.vida = 0;
         } else {
-            player.gastarEnergia(ClassePlayer.CUSTO_HABILIDADE);
+            player.gastarEnergia(ClassePlayer.CustoHabilidade);
             player.habilidadeEspecial(inimigo);
             if (danoBonus > 0) {
                 System.out.println("  + " + danoBonus + " de dano bonus do quiz!");
