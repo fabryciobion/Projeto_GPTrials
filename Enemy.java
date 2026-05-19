@@ -4,12 +4,18 @@ class Enemy extends Character {
         super(nome, vida, dano);
     }
 
-    public static Enemy criarBotBasico()        { return new Enemy("Bot Basico",       80,  15); }
-    public static Enemy criarAndroideAvancado() { return new Enemy("Androide Avancado", 200, 35); }
-    public static Enemy criarGPTBoss()          { return new Enemy("ChatGPT-Boss",      999, 100); }
+    public static Enemy criarAndroid() {
+        return new Enemy("Android", 80, 15);
+    }
+    public static Enemy criarSuperAndroid() {
+        return new Enemy("Super Android", 200, 35);
+    }
+    public static Enemy criarGPTBoss() {
+        return new Enemy("ChatGPT-Boss", 999, 100);
+    }
 
     @Override
     public void habilidadeEspecial(Character alvo) {
     }
 }
-//
+//teste de balanceamento
