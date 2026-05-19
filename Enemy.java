@@ -5,13 +5,13 @@ class Enemy extends Character {
     }
 
     public static Enemy criarAndroid() {
-        return new Enemy("Android", 20, 5);
+        return new Enemy("Android", 80, 15);
     }
     public static Enemy criarSuperAndroid() {
-        return new Enemy("Super Android", 50, 15);
+        return new Enemy("Super Android", 200, 35);
     }
     public static Enemy criarGPTBoss() {
-        return new Enemy("ChatGPT-Boss", 100, 25);
+        return new Enemy("ChatGPT-Boss", 999, 100);
     }
 
     @Override
