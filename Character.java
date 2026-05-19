@@ -26,7 +26,7 @@ public abstract class Character {
         this.vida = vida;
     }
     public void setDano(int dano) {
-        this.vida = dano;
+        this.dano = dano;
     }
 
 //metodos
