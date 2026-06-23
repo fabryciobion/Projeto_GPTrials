@@ -1,3 +1,7 @@
+import character.player.ClassePlayer;
+import character.Enemy;
+import question.Question;
+import question.QuestionLoader;
 import java.util.*;
 
 public class BattleManager {

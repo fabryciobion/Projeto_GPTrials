@@ -1,3 +1,7 @@
+import character.player.*;   // ClassePlayer, Noob, Pro, Hacker, God, ADMIN
+import character.Enemy;
+import question.Question;
+import question.QuestionLoader;
 import java.util.*;
 
 public class Game {

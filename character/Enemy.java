@@ -1,4 +1,6 @@
-class Enemy extends Character {
+package character;
+
+public class Enemy extends Character {
 
     public Enemy(String nome, int vida, int dano) {
         super(nome, vida, dano);

@@ -1,6 +1,8 @@
+package character;
+
 public abstract class Character {
     protected String nome;
-    protected int vida;
+    public int vida;
     protected int dano;
 
 //constructor
