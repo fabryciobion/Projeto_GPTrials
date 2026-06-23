@@ -13,13 +13,16 @@ public class BattleManager {
     private final Map<String, List<Question>> perguntasPorTema;
     private final List<String>               temas;
     private final Scanner                    scanner;
+    private final GameStats                  stats;          
     private int                              temaAtualIdx = 0;
 
     public BattleManager(ClassePlayer player, Enemy inimigo,
-                         List<Question> perguntas, Scanner scanner) {
+                         List<Question> perguntas, Scanner scanner,
+                         GameStats stats) {                  
         this.player           = player;
         this.inimigo          = inimigo;
         this.scanner          = scanner;
+        this.stats            = stats;
         this.perguntasPorTema = QuestionLoader.agruparPorTema(perguntas);
         this.temas            = new ArrayList<>(perguntasPorTema.keySet());
         Collections.shuffle(temas);
@@ -36,6 +39,7 @@ public class BattleManager {
             exibirStatus();
 
             int acao = escolherAcao();
+            stats.registrarTurno();
 
             if (acao == 3) {
                 executarDescanso();
@@ -44,7 +48,10 @@ public class BattleManager {
                 pergunta.exibirPergunta();
                 int danoBonus = pergunta.responderPergunta(scanner);
 
-                if (danoBonus > 0) {
+                boolean acertou = danoBonus > 0;
+                stats.registrarPergunta(acertou);
+
+                if (acertou) {
                     player.ganharEnergia(1);
                     aplicarAcaoPlayer(acao, danoBonus);
                 } else {
@@ -62,7 +69,9 @@ public class BattleManager {
             turno++;
         }
 
-        return player.getVida() > 0;
+        boolean venceu = player.getVida() > 0;
+        if (venceu) stats.registrarInimigo();
+        return venceu;
     }
 
     private void exibirStatus() {
@@ -109,6 +118,7 @@ public class BattleManager {
     private void executarDescanso() {
         int cura = Math.min(CURA_DESCANSO, player.getVidaMaxima() - player.getVida());
         player.vida += cura;
+        stats.registrarCura(cura);                          
         System.out.println("\n  " + player.getNome() + " descansa e recupera " + cura
                 + " HP. Vida atual: " + player.getVida());
     }
@@ -140,19 +150,29 @@ public class BattleManager {
         System.out.println();
         if (acao == 1) {
             int danoTotal = player.getDano() + danoBonus;
+            // limita ao HP atual do inimigo para não contar "dano fantasma"
+            int danoEfetivo = Math.min(danoTotal, inimigo.getVida());
             System.out.println("  " + player.getNome() + " ataca " + inimigo.getNome()
                     + " -> " + player.getDano() + " (base)"
                     + (danoBonus > 0 ? " + " + danoBonus + " (bonus quiz)" : "")
                     + " = " + danoTotal + " de dano!");
             inimigo.vida -= danoTotal;
             if (inimigo.vida < 0) inimigo.vida = 0;
+            stats.registrarDano(danoEfetivo);              
         } else {
+            stats.registrarHabilidade();                   
             player.gastarEnergia(ClassePlayer.CustoHabilidade);
+            int vidaAntes = inimigo.getVida();
             player.habilidadeEspecial(inimigo);
+            int danoHab = vidaAntes - inimigo.getVida();
+            stats.registrarDano(danoHab);                  
+
             if (danoBonus > 0) {
                 System.out.println("  + " + danoBonus + " de dano bonus do quiz!");
+                int danoQuizEfetivo = Math.min(danoBonus, inimigo.getVida());
                 inimigo.vida -= danoBonus;
                 if (inimigo.vida < 0) inimigo.vida = 0;
+                stats.registrarDano(danoQuizEfetivo);       
             }
         }
 

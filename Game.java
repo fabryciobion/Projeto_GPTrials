@@ -10,6 +10,7 @@ public class Game {
 
     private final Scanner        scanner   = new Scanner(System.in);
     private final List<Question> perguntas = QuestionLoader.carregar(CAMINHO_CSV);
+    private final GameStats      stats     = new GameStats();   // <-- novo
 
     public void iniciar() {
         exibirTitulo();
@@ -47,7 +48,8 @@ public class Game {
                         + "  --  " + inimigo.getNome().toUpperCase());
                 pausar();
 
-                BattleManager batalha = new BattleManager(player, inimigo, perguntasDoTema, scanner);
+                BattleManager batalha = new BattleManager(
+                        player, inimigo, perguntasDoTema, scanner, stats); // <-- passa stats
                 vivo = batalha.executar();
 
                 if (!vivo) break;
@@ -55,6 +57,7 @@ public class Game {
                 if (j < inimigosArena.size() - 1) {
                     int cura = Math.min(player.getDano(), player.getVidaMaxima() - player.getVida());
                     player.vida += cura;
+                    stats.registrarCura(cura);              // <-- registro
                     System.out.println("\n  Recuperacao rapida: +" + cura
                             + " HP. Vida atual: " + player.getVida());
                 }
@@ -64,6 +67,7 @@ public class Game {
 
             int cura = Math.min(player.getDano() * 2, player.getVidaMaxima() - player.getVida());
             player.vida += cura;
+            stats.registrarCura(cura);                      // <-- registro
             System.out.println("\n  Checkpoint de arena concluida: +" + cura
                     + " HP. Vida atual: " + player.getVida());
         }
@@ -75,13 +79,15 @@ public class Game {
             pausar();
 
             Enemy boss = Enemy.criarGPTBoss();
-            BattleManager batalhaFinal = new BattleManager(player, boss, perguntas, scanner);
+            BattleManager batalhaFinal = new BattleManager(
+                    player, boss, perguntas, scanner, stats); // <-- passa stats
             vivo = batalhaFinal.executar();
         }
 
         exibirFinal(player, vivo);
         scanner.close();
     }
+
 
     private List<String> extrairTemas() {
         Map<String, List<Question>> mapa = QuestionLoader.agruparPorTema(perguntas);
@@ -90,9 +96,7 @@ public class Game {
 
     private List<Enemy> criarInimigosArena() {
         List<Enemy> lista = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
-            lista.add(Enemy.criarAndroid());
-        }
+        for (int i = 0; i < 3; i++) lista.add(Enemy.criarAndroid());
         lista.add(Enemy.criarSuperAndroid());
         return lista;
     }
@@ -124,7 +128,7 @@ public class Game {
             case 3 -> new Hacker(nome);
             case 4 -> new God(nome);
             case 5 -> {
-                System.out.println("\n  Codigo de trapaça ativado. Consequencias irreversíveis.");
+                System.out.println("\n  Codigo de trapaca ativado. Consequencias irreversíveis.");
                 yield new ADMIN(nome);
             }
             default -> throw new IllegalStateException();
@@ -189,6 +193,8 @@ public class Game {
             System.out.println("  O sistema registra mais uma falha humana.");
         }
         System.out.println("======================================\n");
+
+        stats.exibir();                                     // <-- exibe stats
     }
 
     private int lerInteiro(int min, int max) {
