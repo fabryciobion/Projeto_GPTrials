@@ -1,4 +1,4 @@
-import character.player.*;   // ClassePlayer, Noob, Pro, Hacker, God, ADMIN
+import character.player.*;
 import character.Enemy;
 import question.Question;
 import question.QuestionLoader;
@@ -10,9 +10,9 @@ public class Game {
 
     private final Scanner        scanner   = new Scanner(System.in);
     private final List<Question> perguntas = QuestionLoader.carregar(CAMINHO_CSV);
-    private final GameStats      stats     = new GameStats();   // <-- novo
 
     public void iniciar() {
+        limparTela();
         exibirTitulo();
         exibirIntroducao();
 
@@ -20,7 +20,10 @@ public class Game {
         String nome = scanner.nextLine().trim();
         if (nome.isBlank()) nome = "Anonimo";
 
+        limparTela();
         ClassePlayer player = escolherArquetipo(nome);
+        limparTela();
+
         System.out.println("\n  Conexao estabelecida, " + player.getNome()
                 + ". A arena aguarda.\n");
         pausar();
@@ -33,23 +36,24 @@ public class Game {
             List<Enemy> inimigosArena = criarInimigosArena();
             List<Question> perguntasDoTema = filtrarPorTema(temaArena);
 
-            System.out.println("\n======================================");
+            limparTela();
+            System.out.println("======================================");
             System.out.println("  ARENA " + (i + 1) + " DE " + temas.size()
                     + "  --  TEMA: " + temaArena.toUpperCase());
             System.out.println("  Inimigos: " + inimigosArena.size()
-                    + " (3 Bots Basicos + 1 Androide Avancado)");
+                    + " (3 Androids + 1 Androide Avancado)");
             System.out.println("======================================");
             pausar();
 
             for (int j = 0; j < inimigosArena.size(); j++) {
                 Enemy inimigo = inimigosArena.get(j);
 
-                System.out.println("\n  Combate " + (j + 1) + " de " + inimigosArena.size()
+                limparTela();
+                System.out.println("  Combate " + (j + 1) + " de " + inimigosArena.size()
                         + "  --  " + inimigo.getNome().toUpperCase());
                 pausar();
 
-                BattleManager batalha = new BattleManager(
-                        player, inimigo, perguntasDoTema, scanner, stats); // <-- passa stats
+                BattleManager batalha = new BattleManager(player, inimigo, perguntasDoTema, scanner);
                 vivo = batalha.executar();
 
                 if (!vivo) break;
@@ -57,9 +61,10 @@ public class Game {
                 if (j < inimigosArena.size() - 1) {
                     int cura = Math.min(player.getDano(), player.getVidaMaxima() - player.getVida());
                     player.vida += cura;
-                    stats.registrarCura(cura);              // <-- registro
+                    limparTela();
                     System.out.println("\n  Recuperacao rapida: +" + cura
                             + " HP. Vida atual: " + player.getVida());
+                    pausar();
                 }
             }
 
@@ -67,27 +72,42 @@ public class Game {
 
             int cura = Math.min(player.getDano() * 2, player.getVidaMaxima() - player.getVida());
             player.vida += cura;
-            stats.registrarCura(cura);                      // <-- registro
+            limparTela();
             System.out.println("\n  Checkpoint de arena concluida: +" + cura
                     + " HP. Vida atual: " + player.getVida());
+            pausar();
         }
 
         if (vivo) {
+            limparTela();
             System.out.println("\n======================================");
             System.out.println("  BATALHA FINAL  --  ChatGPT-Boss");
             System.out.println("======================================");
             pausar();
 
             Enemy boss = Enemy.criarGPTBoss();
-            BattleManager batalhaFinal = new BattleManager(
-                    player, boss, perguntas, scanner, stats); // <-- passa stats
+            BattleManager batalhaFinal = new BattleManager(player, boss, perguntas, scanner);
             vivo = batalhaFinal.executar();
         }
 
+        limparTela();
         exibirFinal(player, vivo);
         scanner.close();
     }
 
+// os utils
+
+    private void limparTela() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
+
+    private void pausar() {
+        System.out.print("  [ Pressione Enter para continuar ] ");
+        scanner.nextLine();
+    }
+
+//setup
 
     private List<String> extrairTemas() {
         Map<String, List<Question>> mapa = QuestionLoader.agruparPorTema(perguntas);
@@ -110,7 +130,9 @@ public class Game {
     }
 
     private ClassePlayer escolherArquetipo(String nome) {
-        System.out.println("\nEscolha seu arquetipo:");
+        System.out.println("======================================");
+        System.out.println("  Escolha seu arquetipo, " + nome + ":");
+        System.out.println("======================================");
         System.out.println("  1. NOOB    --  80 HP  | 15 dano  | Habilidade: Noob Attack   (5x dano)");
         System.out.println("  2. PRO     -- 120 HP  | 35 dano  | Habilidade: Ataque PRO    (3x dano)");
         System.out.println("  3. HACKER  -- 100 HP  | 50 dano  | Habilidade: Exploit       (2x dano + drena vida)");
@@ -119,7 +141,7 @@ public class Game {
         System.out.println();
         System.out.println("  Habilidades custam " + ClassePlayer.CustoHabilidade
                 + " de energia. Acertar perguntas concede +1 energia.");
-        System.out.print("Escolha: ");
+        System.out.print("\nEscolha: ");
 
         int escolha = lerInteiro(1, 5);
         return switch (escolha) {
@@ -128,16 +150,19 @@ public class Game {
             case 3 -> new Hacker(nome);
             case 4 -> new God(nome);
             case 5 -> {
-                System.out.println("\n  Codigo de trapaca ativado. Consequencias irreversíveis.");
+                System.out.println("\n  Codigo de trapaca ativado. Consequencias irreversiveis.");
                 yield new ADMIN(nome);
             }
             default -> throw new IllegalStateException();
         };
     }
 
+
+// tela 
+
     private void exibirTitulo() {
         System.out.println("======================================");
-        System.out.println("             G P T r i a l s          ");
+        System.out.println("           G P T r i a l s            ");
         System.out.println("======================================");
         System.out.println();
     }
@@ -193,9 +218,9 @@ public class Game {
             System.out.println("  O sistema registra mais uma falha humana.");
         }
         System.out.println("======================================\n");
-
-        stats.exibir();                                     // <-- exibe stats
     }
+
+//input 
 
     private int lerInteiro(int min, int max) {
         int val = -1;
@@ -209,10 +234,5 @@ public class Game {
             }
         }
         return val;
-    }
-
-    private void pausar() {
-        System.out.print("  [ Pressione Enter para continuar ] ");
-        scanner.nextLine();
     }
 }

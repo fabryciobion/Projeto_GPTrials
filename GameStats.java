@@ -34,8 +34,6 @@ public class GameStats {
         turnosTotais++;
     }
 
-    // ── exibição ─────────────────────────────────────────────────
-
     public void exibir() {
         int pct = perguntasRespondidas == 0 ? 0
                 : (perguntasCorretas * 100) / perguntasRespondidas;
