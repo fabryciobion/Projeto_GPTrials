@@ -1,8 +1,9 @@
 package character.player;
 import  character.Character;
+import character.SpecialAbility;
+import character.Healable;
 
-
-public abstract class ClassePlayer extends Character {
+public abstract class ClassePlayer extends Character implements SpecialAbility, Healable {
 
     public static final int CustoHabilidade = 3;
 
@@ -32,5 +33,10 @@ public abstract class ClassePlayer extends Character {
         if (energia < quantidade) return false;
         energia -= quantidade;
         return true;
+    }
+    
+    @Override
+    public void receberCura(int quantidade) {
+        this.vida = Math.min(this.vida + quantidade, this.vidaMaxima);
     }
 }

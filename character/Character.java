@@ -1,6 +1,6 @@
 package character;
 
-public abstract class Character {
+public abstract class Character implements Combative {
     protected String nome;
     public int vida;
     protected int dano;
@@ -38,12 +38,10 @@ public abstract class Character {
             vida = 0;
         }
     }
-    public void atacar(Character alvo) {
+    public void atacar(Combative alvo) {
         alvo.receberDano(dano);
     }
     public boolean estarVivo() {
         return vida > 0;
     }
-
-    public abstract void habilidadeEspecial(Character alvo);
-}//
+}

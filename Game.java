@@ -70,10 +70,9 @@ public class Game {
 
             if (!vivo) break;
 
-            int cura = Math.min(player.getDano() * 2, player.getVidaMaxima() - player.getVida());
-            player.vida += cura;
+            player.receberCura(player.getDano());
             limparTela();
-            System.out.println("\n  Checkpoint de arena concluida: +" + cura
+            System.out.println("\n  Checkpoint de arena concluida: +"
                     + " HP. Vida atual: " + player.getVida());
             pausar();
         }

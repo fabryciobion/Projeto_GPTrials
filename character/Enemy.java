@@ -15,9 +15,4 @@ public class Enemy extends Character {
     public static Enemy criarGPTBoss() {
         return new Enemy("ChatGPT-Boss", 999, 100);
     }
-
-    @Override
-    public void habilidadeEspecial(Character alvo) {
-    }
 }
-//teste de balanceamento
