@@ -108,17 +108,18 @@ public class BattleManager {
         int hpInimigo = inimigo.getVida();
 
         System.out.printf("%n  HP  %-12s %s (%d)%n",
-                player.getNome(),  barraVida(hpPlayer, hpMax), hpPlayer);
+                player.getNome(),  barra(hpPlayer, hpMax), hpPlayer);
+        System.out.println("");
         System.out.printf("  HP  %-12s %s (%d)%n",
-                inimigo.getNome(), barraVida(hpInimigo, 999),  hpInimigo);
+                inimigo.getNome(), barra(hpInimigo, inimigo.getVidaMaxima()),  hpInimigo);
         System.out.printf("  Energia: %d%n", player.getEnergia());
     }
 
-    private String barraVida(int atual, int maximo) {
-        int total   = 20;
-        int cheios  = (maximo <= 0) ? 0 : Math.max(0, (int)((double) atual / maximo * total));
-        return "[" + "#".repeat(cheios) + ".".repeat(total - cheios) + "]";
-    }
+    private String barra(int atual, int maximo) {
+        int total = maximo/5;
+        int cheio = (int) Math.round((double) atual / maximo * total);
+    return "[" + "█".repeat(cheio) + "░".repeat(total - cheio) + "]";
+}
 
     private void exibirResultadoBatalha() {
         System.out.println("==================================");
