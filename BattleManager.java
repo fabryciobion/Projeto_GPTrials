@@ -171,11 +171,8 @@ public class BattleManager {
     }
 
     private void executarDescanso() {
-        int cura = Math.min(CURA_DESCANSO, player.getVidaMaxima() - player.getVida());
-        player.vida += cura;
-        ultimoEvento = player.getNome() + " descansou e recuperou " + cura + " HP.";
-        System.out.println("\n  " + ultimoEvento);
-    }
+        System.out.println("\n  " + player.getNome() + " se prepara para descansar e desviar...");
+    }  
 
     private Question sortearPergunta() {
         int tentativas = 0;
@@ -231,18 +228,19 @@ public class BattleManager {
 
     private void contrataqueInimigo(boolean desviou) {
         if (desviou) {
-            ultimoEvento = player.getNome() + " desviou do contra-ataque de " + inimigo.getNome() + "!";
-            System.out.println("\n  " + ultimoEvento);
-            return;
-        }
-        ultimoEvento = inimigo.getNome() + " contra-atacou " + player.getNome()
-                + " causando " + inimigo.getDano() + " de dano!";
-        System.out.println("\n  " + ultimoEvento);
+        int cura = Math.min(CURA_DESCANSO, player.getVidaMaxima() - player.getVida());
+        player.vida += cura;
+        System.out.println("\n  " + player.getNome()
+                + " desviou do contra-ataque de " + inimigo.getNome()
+                + " e descansou! Recupera " + cura + " HP. Vida atual: " + player.getVida());
+        return;
+    }
+        System.out.println("\n  " + inimigo.getNome() + " contra-ataca "
+            + player.getNome() + " causando " + inimigo.getDano() + " de dano!");
         player.vida -= inimigo.getDano();
         if (player.vida < 0) player.vida = 0;
-
         if (player.getVida() == 0) {
-            System.out.println("\n  " + player.getNome() + " foi desconectado...");
-        }
+        System.out.println("\n  " + player.getNome() + " foi desconectado...");
+    }
     }
 }
