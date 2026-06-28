@@ -11,7 +11,6 @@ public class QuestionLoader {
 
         if (arquivo == null || !arquivo.exists()) {
             System.err.println("[QuestionLoader] Arquivo nao encontrado: " + nomeArquivo);
-            System.err.println("  Usando perguntas de fallback.");
             return carregarFallback();
         }
 
