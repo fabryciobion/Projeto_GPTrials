@@ -15,19 +15,18 @@ O jogador escolhe uma classe, enfrenta inimigos em arenas temáticas e responde 
 
 ## Como compilar e executar
 
-```bash
+
 # Compilar todos os arquivos
 javac -d . Main.java Game.java BattleManager.java character/*.java character/player/*.java question/*.java
 
 # Executar
 java Main
-```
+
 
 ---
 
 ## Estrutura do Projeto
 
-```
 GPTrials/
 │
 ├── Main.java                          # Ponto de entrada — inicia o jogo
@@ -52,7 +51,7 @@ GPTrials/
     ├── QuestionVerdadeiroFalso.java   # Pergunta verdadeiro ou falso
     ├── QuestionFillBlank.java         # Pergunta de completar a lacuna
     └── QuestionLoader.java            # Leitura do CSV e agrupamento por tema
-```
+
 
 ## Feito por
 
